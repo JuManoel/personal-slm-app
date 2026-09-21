@@ -1,0 +1,16 @@
+.git
+.github
+**/.venv
+**/node_modules
+**/dist
+**/build
+**/coverage
+**/htmlcov
+**/.pytest_cache
+**/.ruff_cache
+**/.coverage
+**/*.md
+Makefile
+compose.yaml
+.dockerignore
+.gitignore

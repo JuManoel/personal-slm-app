@@ -1,0 +1,31 @@
+# Env & secrets
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.sw?
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Logs
+*.log
+logs/
+
+# Coverage / test artifacts
+coverage/
+htmlcov/
+.coverage
+.coverage.*
+*.lcov
+
+# Build caches (package-level ignores also apply)
+**/.turbo/
+**/.cache/

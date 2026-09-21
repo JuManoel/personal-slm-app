@@ -1,0 +1,29 @@
+# Dependencies & build
+node_modules
+dist
+dist-ssr
+.pnpm-store
+coverage
+*.tsbuildinfo
+
+# Env & secrets
+.env
+.env.*
+
+# Git / docs / editor
+.git
+.gitignore
+*.md
+.vscode
+.idea
+.DS_Store
+
+# Logs
+logs
+*.log
+*.local
+
+# Tests (not needed in production image)
+src/**/*.test.*
+src/**/*.spec.*
+**/__tests__/
